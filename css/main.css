@@ -1,1 +1,79 @@
-font-family: 'Permanent Marker', cursive;
+body {
+    
+    background-color: #E8E8E8;
+}
+
+#vision-board {
+    font-family: 'Montseratt', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 1200px;
+    height: 850px;
+    margin: 0 auto;
+    background-image: url('../img/background.png');
+    overflow: auto;
+    
+}
+
+.block {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+    /* padding: 30px 50px; */
+}
+
+.small-block {
+    height: 210px;
+    /* padding: 30px; */
+}
+
+.large-block {
+    height: 430px;
+    /* padding: 50px; */
+}
+
+/****** Align Content *********/
+
+.left {
+    text-align: left;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+
+.light-bg {
+    background-color: #fff;
+}
+
+.dark-bg {
+    background-color: #3B3B3B;
+}
+
+.vb-2022 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: #fff;
+}
+
+strong {
+    font-size: 38px;
+    text-transform: capitalize;
+}
+
+.vb-2022 strong {
+    font-family: 'Montseratt', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.category span {
+    background-color: #FFF44F;
+}
